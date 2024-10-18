@@ -22,10 +22,3 @@ The dataset had 17 attributes, many of which have acronyms for ease of coding, s
     Transportation: automobile, motorbike, bike, public transportation, or walking
     Obesity**: insufficient weight, normal weight, level I overweight, level II overweight, type I obesity, type 2 obesity, type 3 obesity; these categories are listed from lowest to highest body fat
 
-**Note: I will refer to these categories as “weight classifications” and “body fat levels”, but they are not determined solely by one’s weight or body fat level.
-
-Given these attributes, I approached this project with the goal of trying to find the answers to the following questions:
-
-    As the makeup of respondents is important to the conclusions derived from this dataset, what kinds of characteristics do the people in this dataset have?
-    Can BMI be used as a quantitative substitute for the qualitative weight classification category?
-    Which eating habit and physical condition variables are most related to obesity levels? This question has many subquestions related to individual variables and groups of variables.
