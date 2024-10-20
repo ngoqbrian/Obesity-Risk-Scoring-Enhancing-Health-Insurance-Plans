@@ -1,4 +1,9 @@
-Introduction
+**Obesity-Risk-Scoring-Enhancing-Health-Insurance-Plans**
+**Project Overview**
+Welcome to the Obesity-Risk-Scoring-Enhancing-Health-Insurance-Plans! Our project focuses on analyzing and predicting         using various machine learning techniques. Our team has designed, implemented, and tested regression and classification models to gain insights into the factors affecting loan amounts and conditions.
+Team Members
+
+Data Introduction
 
 Data has a large potential to positively impact us now more than ever, which is why I chose to analyze a dataset that estimated obesity levels based on the eating habits and physical condition of people from Mexico, Peru, and Colombia. I was interested in the relationship between body fat levels and lifestyle habits, as the findings can be applicable to the health and wellbeing of many, if not most, of us. It is especially relevant because BMI has been on the news a lot recently due to the fact that those with a high BMI are eligible to get the COVID-19 vaccine earlier, as obese individuals are three times more likely to be hospitalized from the virus. I used a dataset from UC Irvine’s Machine Learning Repository, which included the data of 2111 individuals ages 14 to 61.
 
@@ -22,3 +27,13 @@ The dataset had 17 attributes, many of which have acronyms for ease of coding, s
     Transportation: automobile, motorbike, bike, public transportation, or walking
     Obesity**: insufficient weight, normal weight, level I overweight, level II overweight, type I obesity, type 2 obesity, type 3 obesity; these categories are listed from lowest to highest body fat
 
+Rules of Engagement
+
+    Transparent and clear communication among team members.
+    Collaboration and teamwork.
+    Respect and professionalism in sharing different viewpoints.
+    Leveraging each team member's expertise for effective project contributions.
+    Conducting regular team meetings and summarizing key discussion points.
+    Open idea-sharing.
+    Providing support for team members facing difficulties.
+    Commitment to continuous improvement.
