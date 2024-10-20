@@ -1,7 +1,18 @@
 **Obesity-Risk-Scoring-Enhancing-Health-Insurance-Plans**
 **Project Overview**
-Welcome to the Obesity-Risk-Scoring-Enhancing-Health-Insurance-Plans! Our project focuses on analyzing and predicting         using various machine learning techniques. Our team has designed, implemented, and tested regression and classification models to gain insights into the factors affecting loan amounts and conditions.
-Team Members
+Welcome to the Obesity-Risk-Scoring-Enhancing-Health-Insurance-Plans! Our project focuses on analyzing and predicting      
+What is Obesity?
+
+Having a body weight that is higher than what is considered healthy for a given height is described as overweight or obesity. There are many methods of measuring this, some of which are expensive and time consuming. BMI, which is inexpensive and easy to calculate, is typically used as a proxy. Health officials recommend that individual health assessments should consider other factors as well. Research has demonstrated that a high BMI is strongly correlated with negative health consequences, although the association between BMI does vary among ethnic groups.
+
+BMI is a person’s weight in kilograms divided by their height in meters squared. For measurements in pounds and inches, BMI is calculated using the following formula:
+BMI Formula
+Defining Obesity Among Children and Teens
+Because kids are still growing, obesity is measured differently among children than adults. Instead of a simple BMI measurement, a child’s BMI is compared to others of the same age and sex.
+According to the Centers for Disease Control and Prevention (CDC), child obesity is defined as a BMI that is at or above the 95th percentile for children and teens of the same age and sex. Overweight is defined as a BMI that is at or above the 85th percentile and below the 95th percentile for children and teens of the same age and sex.
+Why is BMI age- and sex-specific for children and teens?
+
+A child’s weight status is determined using an age- and sex-specific percentile for BMI, which is different from BMI categories used for adults. Because children’s body fat levels change over the course of childhood and vary between boys and girls, their BMI levels are expressed relative to other children of the same age and sex.
 
 Data Introduction
 
