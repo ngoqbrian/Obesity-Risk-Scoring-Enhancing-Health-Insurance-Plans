@@ -52,3 +52,59 @@ Rules of Engagement
     Open idea-sharing.
     Providing support for team members facing difficulties.
     Commitment to continuous improvement.
+
+Context & Problem
+Obesity and related health conditions, such as diabetes, cardiovascular diseases, and hypertension, are major contributors to the rising cost of medical insurance. Insurance companies face higher claims from individuals with these conditions, leading to an overall increase in premiums. By analyzing lifestyle habits, we can predict obesity levels and identify high-risk individuals before they develop severe medical conditions, thus reducing healthcare costs in the long term.
+
+The provided dataset contains information on individuals' demographics, eating habits, physical activity, and obesity levels. Predictive analytics can be used to forecast an individual’s obesity risk based on their lifestyle habits. With this information, insurance companies can implement preventative measures, personalized health plans, and adjust insurance premiums based on predicted health outcomes
+
+Key Features in the Dataset
+The dataset includes lifestyle factors that influence health:
+
+Demographics: Gender, Age, Height, Weight
+Dietary habits: Family history with obesity, frequent consumption of high-calorie foods (FAVC), daily meals (NCP), consumption of alcohol (CALC)
+Physical activity: Physical activity frequency (FAF), transportation mode (MTRANS)
+Health-related factors: Smoking (SMOKE), hydration (CH2O), sedentary time (TUE)
+Predictive Analytics Workflow
+Problem Definition:
+We aim to predict the obesity level of individuals (target variable: NObeyesdad) using various features related to lifestyle habits. By predicting obesity early, we can intervene with tailored health programs or adjust insurance premiums.
+
+Data Preprocessing:
+
+Encoding categorical variables: Variables such as Gender, family_history_with_overweight, FAVC, etc., need to be encoded for machine learning.
+Handling missing data: Any missing values will need to be handled appropriately.
+Feature scaling: Some features like Height, Weight, and Age may need scaling for certain algorithms.
+Splitting data: Divide the data into training and testing sets.
+Model Selection:
+
+XGBoost Classifier: A gradient boosting model to predict obesity levels.
+Random Forest or Logistic Regression can also be explored as they perform well with tabular data.
+GridSearchCV can be used to fine-tune hyperparameters and optimize performance.
+Prediction Output:
+
+Predict the obesity level (categories such as Normal_Weight, Overweight_Level_I, Overweight_Level_II) based on individual habits.
+Classify individuals into risk categories to tailor interventions accordingly.
+Model Interpretation:
+
+Use SHAP values or Feature Importance to explain which lifestyle factors (e.g., smoking, lack of physical activity, etc.) contribute most to obesity risk.
+Insights can guide personalized health interventions.
+
+Potential Business Impact
+Risk Stratification for Insurance Premiums: Predictive models can classify individuals into different risk categories (e.g., low, moderate, high risk for obesity and associated conditions). Insurance companies can adjust premiums based on risk level, creating a fairer pricing model while promoting healthier lifestyles.
+
+Early Interventions & Preventative Care: By identifying individuals at risk of developing obesity, insurance companies can offer personalized preventative care programs. These programs may include:
+
+Dietary consultations
+Fitness programs
+Health tracking through wearable technology Early intervention can reduce the likelihood of costly treatments in the future, thus reducing claim amounts.
+Wellness Programs and Incentives: Insurance companies can partner with fitness and health service providers to offer discounted or subsidized services for those at higher risk. Premium discounts can be offered as incentives for adopting healthier lifestyle habits.
+
+Reduction in Medical Claims: Predictive analytics can help reduce claims by encouraging a focus on preventative care, reducing the incidence of chronic conditions (e.g., diabetes, heart disease), which are costly to treat.
+
+Conclusion
+By leveraging predictive analytics on lifestyle habits, insurance companies can improve their risk assessment models, offer personalized interventions, and adjust premiums based on individual risk profiles. This proactive approach can significantly reduce overall medical costs and promote healthier lifestyles among policyholders.
+
+
+
+
+
