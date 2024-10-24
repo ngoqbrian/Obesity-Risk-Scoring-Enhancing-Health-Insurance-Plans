@@ -69,6 +69,9 @@ Predictive Analytics Workflow
 Problem Definition:
 We aim to predict the obesity level of individuals (target variable: NObeyesdad) using various features related to lifestyle habits. By predicting obesity early, we can intervene with tailored health programs or adjust insurance premiums.
 
+![image](https://github.com/user-attachments/assets/da6dfffd-509a-4528-b1db-9306d391625a)
+
+
 Data Preprocessing:
 1. Understanding the Data
 The dataset includes key features like Gender, Age, Height, Weight, BMI, Smoking habits, Family history with overweight, and lifestyle factors (e.g., exercise frequency, water intake, etc.), which can be crucial in predicting obesity and its correlation with medical costs.
@@ -76,15 +79,24 @@ The dataset includes key features like Gender, Age, Height, Weight, BMI, Smoking
 2. Exploration & Discovery
 You can start with exploratory data analysis (EDA) to uncover trends:
 
+![image](https://github.com/user-attachments/assets/d62ac2d9-d670-446a-88a1-b1c3b4c097cc)
+
+
 Correlation Analysis: Examine correlations between lifestyle habits (like smoking, alcohol consumption, exercise) and obesity.
 Visualization: Use scatter plots, histograms, and heatmaps to see the distribution of obesity across gender, age, and lifestyle choices.
 3. Business Case
 The analysis will provide insights for:
 
+
+![image](https://github.com/user-attachments/assets/ec5d2627-95b8-416e-9a06-b4a9ce9d0477)
+
+
 Insurers: By identifying lifestyle risks like smoking or lack of physical activity, insurers can design tailored premiums based on risk levels.
 Insurance Buyers: Buyers can adopt healthier lifestyle habits to reduce insurance costs by avoiding risk categories such as smoking or high BMI.
 4. Technical Solution
 To address the business case, the following techniques can be applied:
+
+![image](https://github.com/user-attachments/assets/8a4698c7-9a1c-4b4e-8fad-d70d233cdda5)
 
 a. KNN Classification
 Goal: Predict obesity class or risk levels based on features like age, BMI, and lifestyle habits.
@@ -93,6 +105,9 @@ b. Regression Models
 Goal: Predict BMI or medical costs based on factors such as age, weight, and exercise frequency.
 Application: Use linear regression or other models to understand how different habits influence BMI and, indirectly, healthcare costs.
 c. Clustering
+
+![image](https://github.com/user-attachments/assets/98ab5d83-3815-418a-96bf-bf5623753adc)
+
 Goal: Group individuals into clusters based on similar lifestyle patterns (e.g., smokers vs. non-smokers, active vs. sedentary).
 Application: This segmentation can allow insurers to identify low- and high-risk groups for customized policy offerings.
 
