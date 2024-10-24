@@ -70,39 +70,34 @@ Problem Definition:
 We aim to predict the obesity level of individuals (target variable: NObeyesdad) using various features related to lifestyle habits. By predicting obesity early, we can intervene with tailored health programs or adjust insurance premiums.
 
 Data Preprocessing:
+1. Understanding the Data
+The dataset includes key features like Gender, Age, Height, Weight, BMI, Smoking habits, Family history with overweight, and lifestyle factors (e.g., exercise frequency, water intake, etc.), which can be crucial in predicting obesity and its correlation with medical costs.
 
-Encoding categorical variables: Variables such as Gender, family_history_with_overweight, FAVC, etc., need to be encoded for machine learning.
-Handling missing data: Any missing values will need to be handled appropriately.
-Feature scaling: Some features like Height, Weight, and Age may need scaling for certain algorithms.
-Splitting data: Divide the data into training and testing sets.
-Model Selection:
+2. Exploration & Discovery
+You can start with exploratory data analysis (EDA) to uncover trends:
 
-XGBoost Classifier: A gradient boosting model to predict obesity levels.
-Random Forest or Logistic Regression can also be explored as they perform well with tabular data.
-GridSearchCV can be used to fine-tune hyperparameters and optimize performance.
-Prediction Output:
+Correlation Analysis: Examine correlations between lifestyle habits (like smoking, alcohol consumption, exercise) and obesity.
+Visualization: Use scatter plots, histograms, and heatmaps to see the distribution of obesity across gender, age, and lifestyle choices.
+3. Business Case
+The analysis will provide insights for:
 
-Predict the obesity level (categories such as Normal_Weight, Overweight_Level_I, Overweight_Level_II) based on individual habits.
-Classify individuals into risk categories to tailor interventions accordingly.
-Model Interpretation:
+Insurers: By identifying lifestyle risks like smoking or lack of physical activity, insurers can design tailored premiums based on risk levels.
+Insurance Buyers: Buyers can adopt healthier lifestyle habits to reduce insurance costs by avoiding risk categories such as smoking or high BMI.
+4. Technical Solution
+To address the business case, the following techniques can be applied:
 
-Use SHAP values or Feature Importance to explain which lifestyle factors (e.g., smoking, lack of physical activity, etc.) contribute most to obesity risk.
-Insights can guide personalized health interventions.
+a. KNN Classification
+Goal: Predict obesity class or risk levels based on features like age, BMI, and lifestyle habits.
+Application: Classify whether an individual is at high or low risk of obesity-related conditions, which can directly impact their insurance premiums.
+b. Regression Models
+Goal: Predict BMI or medical costs based on factors such as age, weight, and exercise frequency.
+Application: Use linear regression or other models to understand how different habits influence BMI and, indirectly, healthcare costs.
+c. Clustering
+Goal: Group individuals into clusters based on similar lifestyle patterns (e.g., smokers vs. non-smokers, active vs. sedentary).
+Application: This segmentation can allow insurers to identify low- and high-risk groups for customized policy offerings.
 
-Potential Business Impact
-Risk Stratification for Insurance Premiums: Predictive models can classify individuals into different risk categories (e.g., low, moderate, high risk for obesity and associated conditions). Insurance companies can adjust premiums based on risk level, creating a fairer pricing model while promoting healthier lifestyles.
 
-Early Interventions & Preventative Care: By identifying individuals at risk of developing obesity, insurance companies can offer personalized preventative care programs. These programs may include:
 
-Dietary consultations
-Fitness programs
-Health tracking through wearable technology Early intervention can reduce the likelihood of costly treatments in the future, thus reducing claim amounts.
-Wellness Programs and Incentives: Insurance companies can partner with fitness and health service providers to offer discounted or subsidized services for those at higher risk. Premium discounts can be offered as incentives for adopting healthier lifestyle habits.
-
-Reduction in Medical Claims: Predictive analytics can help reduce claims by encouraging a focus on preventative care, reducing the incidence of chronic conditions (e.g., diabetes, heart disease), which are costly to treat.
-
-Conclusion
-By leveraging predictive analytics on lifestyle habits, insurance companies can improve their risk assessment models, offer personalized interventions, and adjust premiums based on individual risk profiles. This proactive approach can significantly reduce overall medical costs and promote healthier lifestyles among policyholders.
 
 
 
