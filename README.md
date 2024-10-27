@@ -69,8 +69,7 @@ Predictive Analytics Workflow
 Problem Definition:
 We aim to predict the obesity level of individuals (target variable: NObeyesdad) using various features related to lifestyle habits. By predicting obesity early, we can intervene with tailored health programs or adjust insurance premiums.
 
-![image](https://github.com/user-attachments/assets/da6dfffd-509a-4528-b1db-9306d391625a)
-
+![Obesity ML Flow ](https://github.com/user-attachments/assets/00db4eaf-435d-475d-857c-d4398093841f)
 
 Data Preprocessing:
 1. Understanding the Data
