@@ -110,6 +110,9 @@ c. Clustering
 Goal: Group individuals into clusters based on similar lifestyle patterns (e.g., smokers vs. non-smokers, active vs. sedentary).
 Application: This segmentation can allow insurers to identify low- and high-risk groups for customized policy offerings.
 
+Intractive Dashboard 
+
+![Obesity_Dashboard_snapshot](https://github.com/user-attachments/assets/e97a9a08-0942-482b-886c-d7b56b6c6d92)
 
 
 
