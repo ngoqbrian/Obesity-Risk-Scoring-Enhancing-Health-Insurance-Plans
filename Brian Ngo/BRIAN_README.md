@@ -22,6 +22,7 @@
 
 The Correlation of Height and Weight with Obesity Categories
 
+![Figure 1](https://raw.githubusercontent.com/ngoqbrian/Obesity-Risk-Scoring-Enhancing-Health-Insurance-Plans/Team-Project-1/Brian%20Ngo/images/figure1.png)
 
 
 
