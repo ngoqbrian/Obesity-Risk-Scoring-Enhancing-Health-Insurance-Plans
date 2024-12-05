@@ -1,15 +1,18 @@
 **Obesity-Risk-Scoring-Enhancing-Health-Insurance-Plans**
 **Project Overview**
-Welcome to the Obesity-Risk-Scoring-Enhancing-Health-Insurance-Plans! Our project focuses on analyzing and predicting      
+Welcome to the Obesity-Risk-Scoring-Enhancing-Health-Insurance-Plans! Our project focuses on analyzing and optimizing health insurance plans based on obesity risk scoring.
+
 What is Obesity?
 
-Having a body weight that is higher than what is considered healthy for a given height is described as overweight or obesity. There are many methods of measuring this, some of which are expensive and time consuming. BMI, which is inexpensive and easy to calculate, is typically used as a proxy. Health officials recommend that individual health assessments should consider other factors as well. Research has demonstrated that a high BMI is strongly correlated with negative health consequences, although the association between BMI does vary among ethnic groups.
+Having a body weight that is higher than what is considered healthy for a given height is described as obesity. There are many methods of measuring this, some of which are expensive and time consuming. BMI, which is inexpensive and easy to calculate, is typically used as a proxy. Health officials recommend that individual health assessments should take into consideration other factors as well. Research has demonstrated that a high BMI is strongly correlated with negative health consequences, although the BMI values vary among various ethnic groups.
 
-BMI is a person’s weight in kilograms divided by their height in meters squared. For measurements in pounds and inches, BMI is calculated using the following formula:
-BMI Formula
+BMI is characterized by a greater weight to hight ratio. BMI is a person’s weight in kilograms divided by their height in meters squared. For measurements in pounds and inches, BMI is calculated using the following formula: BMI = 703 x weight (pounds) / height (inches) squared. 
+
 Defining Obesity Among Children and Teens
+
 Because kids are still growing, obesity is measured differently among children than adults. Instead of a simple BMI measurement, a child’s BMI is compared to others of the same age and sex.
 According to the Centers for Disease Control and Prevention (CDC), child obesity is defined as a BMI that is at or above the 95th percentile for children and teens of the same age and sex. Overweight is defined as a BMI that is at or above the 85th percentile and below the 95th percentile for children and teens of the same age and sex.
+
 Why is BMI age- and sex-specific for children and teens?
 
 A child’s weight status is determined using an age- and sex-specific percentile for BMI, which is different from BMI categories used for adults. Because children’s body fat levels change over the course of childhood and vary between boys and girls, their BMI levels are expressed relative to other children of the same age and sex.
@@ -22,7 +25,7 @@ Data Introduction
 
 Data has a large potential to positively impact us now more than ever, which is why I chose to analyze a dataset that estimated obesity levels based on the eating habits and physical condition of people from Mexico, Peru, and Colombia. I was interested in the relationship between body fat levels and lifestyle habits, as the findings can be applicable to the health and wellbeing of many, if not most, of us. It is especially relevant because BMI has been on the news a lot recently due to the fact that those with a high BMI are eligible to get the COVID-19 vaccine earlier, as obese individuals are three times more likely to be hospitalized from the virus. I used a dataset from UC Irvine’s Machine Learning Repository, which included the data of 2111 individuals ages 14 to 61.
 
-The dataset had 17 attributes, many of which have acronyms for ease of coding, so I will give briefly describe all of the attributes:
+The dataset had 17 attributes, many of which have acronyms for ease of coding, so I will  briefly describe all of the attributes:
 
     Gender: female or male
     Age: numeric
@@ -30,15 +33,15 @@ The dataset had 17 attributes, many of which have acronyms for ease of coding, s
     Weight: numeric, in kilograms
     family_history (family history of obesity): yes or no
     FCHCF (frequent consumption of high caloric food): yes or no
-    FCV (frequency of consumption of vegetables: 1, 2, or 3; 1 = never, 2 = sometimes, 3 = always
+    FCV (frequency of consumption of vegetables: 1, 2, or 3; 1 = never, 2 = sometimes, 3 = always)
     NMM (number of main meals): 1, 2, 3 or 4
-    CFBM (consumption of food between meals): 1, 2, 3, or 4; 1=no, 2=sometimes, 3=frequently, 4=always
+    CFBM (consumption of food between meals): 1, 2, 3, or 4; 1 = no, 2 = sometimes, 3 = frequently, 4 = always
     Smoke: yes or no
     CW (consumption of water): 1, 2, or 3; 1 = less than a liter, 2 = 1–2 liters, 3 = more than 2 liters
     CCM (calorie consumption monitoring): yes or no
-    PAF (physical activity frequency per week): 0, 1, 2, or 3; 0 = none, 1 = 1 to 2 days, 2= 2 to 4 days, 3 = 4 to 5 days
+    PAF (physical activity frequency per week): 0, 1, 2, or 3; 0 = none, 1 = 1 to 2 days, 2 = 2 to 4 days, 3 = 4 to 5 days
     TUT (time using technology devices a day): 0, 1, or 2; 0 = 0–2 hours, 1 = 3–5 hours, 2 = more than 5 hours
-    CA (consumption of alcohol): 1, 2, 3, or 4; 1= never, 2 = sometimes, 3 = frequently, 4 = always
+    CA (consumption of alcohol): 1, 2, 3, or 4; 1 = never, 2 = sometimes, 3 = frequently, 4 = always
     Transportation: automobile, motorbike, bike, public transportation, or walking
     Obesity**: insufficient weight, normal weight, level I overweight, level II overweight, type I obesity, type 2 obesity, type 3 obesity; these categories are listed from lowest to highest body fat
 
@@ -54,7 +57,7 @@ Rules of Engagement
     Commitment to continuous improvement.
 
 Context & Problem
-Obesity and related health conditions, such as diabetes, cardiovascular diseases, and hypertension, are major contributors to the rising cost of medical insurance. Insurance companies face higher claims from individuals with these conditions, leading to an overall increase in premiums. By analyzing lifestyle habits, we can predict obesity levels and identify high-risk individuals before they develop severe medical conditions, thus reducing healthcare costs in the long term.
+Obesity and related health conditions, such as diabetes, cardiovascular diseases, and hypertension, are major contributors to the rising cost of medical insurance. Insurance companies face higher claims from individuals with these conditions, leading to an overall increase in premiums. By analyzing lifestyle habits, we can predict obesity levels and identify high-risk individuals before they develop severe medical conditions, thus reducing health insurance costs in the long term.
 
 The provided dataset contains information on individuals' demographics, eating habits, physical activity, and obesity levels. Predictive analytics can be used to forecast an individual’s obesity risk based on their lifestyle habits. With this information, insurance companies can implement preventative measures, personalized health plans, and adjust insurance premiums based on predicted health outcomes
 
@@ -65,6 +68,7 @@ Demographics: Gender, Age, Height, Weight
 Dietary habits: Family history with obesity, frequent consumption of high-calorie foods (FAVC), daily meals (NCP), consumption of alcohol (CALC)
 Physical activity: Physical activity frequency (FAF), transportation mode (MTRANS)
 Health-related factors: Smoking (SMOKE), hydration (CH2O), sedentary time (TUE)
+
 Predictive Analytics Workflow
 Problem Definition:
 We aim to predict the obesity level of individuals (target variable: NObeyesdad) using various features related to lifestyle habits. By predicting obesity early, we can intervene with tailored health programs or adjust insurance premiums.
@@ -73,16 +77,17 @@ We aim to predict the obesity level of individuals (target variable: NObeyesdad)
 
 Data Preprocessing:
 1. Understanding the Data
-The dataset includes key features like Gender, Age, Height, Weight, BMI, Smoking habits, Family history with overweight, and lifestyle factors (e.g., exercise frequency, water intake, etc.), which can be crucial in predicting obesity and its correlation with medical costs.
+The dataset includes key features like Gender, Age, Height, Weight, BMI, Smoking habits, Family history of overweight, and lifestyle factors (e.g., exercise frequency, water intake, etc.), which can be crucial in predicting obesity and its correlation with medical costs.
 
 2. Exploration & Discovery
-You can start with exploratory data analysis (EDA) to uncover trends:
+Exploratory data analysis (EDA) is the starting point to uncover trends:
 
 ![image](https://github.com/user-attachments/assets/d62ac2d9-d670-446a-88a1-b1c3b4c097cc)
 
 
-Correlation Analysis: Examine correlations between lifestyle habits (like smoking, alcohol consumption, exercise) and obesity.
+Correlation Analysis: Examine potential correlation relationships between lifestyle habits (like smoking, alcohol consumption, exercise) and obesity.
 Visualization: Use scatter plots, histograms, and heatmaps to see the distribution of obesity across gender, age, and lifestyle choices.
+
 3. Business Case
 The analysis will provide insights for:
 
@@ -91,9 +96,10 @@ The analysis will provide insights for:
 
 
 Insurers: By identifying lifestyle risks like smoking or lack of physical activity, insurers can design tailored premiums based on risk levels.
-Insurance Buyers: Buyers can adopt healthier lifestyle habits to reduce insurance costs by avoiding risk categories such as smoking or high BMI.
+Insurance Buyers: Buyers adopt healthier lifestyle habits to reduce insurance costs by avoiding risk categories such as smoking or high BMI.
+
 4. Technical Solution
-To address the business case, the following techniques can be applied:
+To address the business case, the following techniques have been employed:
 
 ![image](https://github.com/user-attachments/assets/8a4698c7-9a1c-4b4e-8fad-d70d233cdda5)
 
@@ -110,12 +116,12 @@ c. Clustering
 Goal: Group individuals into clusters based on similar lifestyle patterns (e.g., smokers vs. non-smokers, active vs. sedentary).
 Application: This segmentation can allow insurers to identify low- and high-risk groups for customized policy offerings.
 
-Intractive Dashboard 
+Interactive Dashboard 
 
 ![Obesity_Dashboard_snapshot](https://github.com/user-attachments/assets/e97a9a08-0942-482b-886c-d7b56b6c6d92)
 
-Dashboard story Telling 
-Power BI dashboard tailored to an insurance business using the obesity dataset, focus on visualizations that highlight risk factors, cost implications, and target groups for optimized insurance strategies. Here's a step-by-step approach for designing an effective dashboard.
+Dashboard storytelling 
+Power BI dashboard tailored to an insurance business using the obesity dataset, focusing on visualizations that highlight risk factors, cost implications, and target groups for optimized insurance strategies. Here's a step-by-step approach for designing an effective dashboard.
 
 1. Prepare Data in Power BI
 Data Preparation: Import the obesity dataset into Power BI and clean it by checking for missing or inconsistent data.
@@ -140,7 +146,7 @@ Donut Chart: Use a donut chart to illustrate the percentage of high-risk lifesty
 KPI Cards: Display metrics such as “Suggested Premium Adjustment” based on high-risk behaviors or healthcare cost averages.
 Table with Conditional Formatting: Display a table of individuals or customer segments with high obesity levels and costs above average, with conditional formatting to highlight the most severe cases.
 3. Adding Interactivity and Filters
-Filters: Include slicers for Age Group, Obesity Level, Smoking Status, Alcohol Consumption, and Physical Activity
+Filters: Include slicers for Age Group, Obesity Level, Smoking Status, Alcohol Consumption, and Physical Activity.
 
 
 
