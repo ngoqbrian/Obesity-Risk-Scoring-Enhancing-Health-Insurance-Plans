@@ -1,6 +1,6 @@
-**Obesity-Risk-Scoring-Enhancing-Health-Insurance-Plans**
+**Enhanced Health Insurance Plans Based on Obesity Risk-Scoring**
 **Project Overview**
-Welcome to the Obesity-Risk-Scoring-Enhancing-Health-Insurance-Plans! Our project focuses on analyzing and optimizing health insurance plans based on obesity risk scoring.
+Welcome to the "Enhanced Health Insurance Plans Based on Obesity Risk-Scoring"! The project focuses on analyzing and optimizing health insurance plans based on obesity risk scoring.
 
 What is Obesity?
 
