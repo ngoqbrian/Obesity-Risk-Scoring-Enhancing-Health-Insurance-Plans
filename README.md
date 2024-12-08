@@ -1,5 +1,5 @@
-**Enhanced Health Insurance Plans Based on Obesity Risk-Scoring**
-**Project Overview**
+# **Enhanced Health Insurance Plans Based on Obesity Risk-Scoring**  
+## **Project Overview**  
 Welcome to the "Enhanced Health Insurance Plans Based on Obesity Risk-Scoring"! The project focuses on analyzing and optimizing health insurance plans based on obesity risk scoring.
 
 What is Obesity?
@@ -17,9 +17,12 @@ Why is BMI age- and sex-specific for children and teens?
 
 A child’s weight status is determined using an age- and sex-specific percentile for BMI, which is different from BMI categories used for adults. Because children’s body fat levels change over the course of childhood and vary between boys and girls, their BMI levels are expressed relative to other children of the same age and sex.
 
-**Team Members **
+**Team Members **   
+Anca Kurian  
+[Brian Ngo](#brian-ngos-analysis)  
+Mariam Ibrahim  
+MD Razaul Karim  
 
-Anca Kurian, Brian Ngo, Mariam Ibrahim
 
 Data Introduction
 
