@@ -19,7 +19,7 @@ A child’s weight status is determined using an age- and sex-specific percentil
 
 **Team Members **   
 Anca Kurian  
-[Brian Ngo](#brian-ngos-analysis)  
+[Brian Ngo](#brian-ngos-analysis) - [Click for Brian's Analysis](#brian-ngos-analysis)  
 Mariam Ibrahim  
 MD Razaul Karim  
 
