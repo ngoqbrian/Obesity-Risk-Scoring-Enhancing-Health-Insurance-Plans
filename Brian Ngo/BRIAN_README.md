@@ -20,12 +20,26 @@
 
 # Brian's Analysis:
 
-The Correlation of Height and Weight with Obesity Categories
+
+
+
+## Correlation Analysis:
+
+### The Correlation of Height and Weight with Obesity Classification
 
 ![Figure 1](https://raw.githubusercontent.com/ngoqbrian/Obesity-Risk-Scoring-Enhancing-Health-Insurance-Plans/Team-Project-1/Brian%20Ngo/images/figure1.png)
 
 
 
+
+
+### Heatmap
+
+
+
+
+
+### Classifications:
 
 Linear Regression Model for BMI
 
