@@ -89,6 +89,10 @@ By adjusting premiums to reflect an individual and provide a more personalized a
 
 The data-driven insights from these models demonstrate how leveraging obesity risk scoring can allow insurers to design targeted health plans, promote preventive care, and encourage healthier lifestyles, ultimately benefiting both policyholders and the healthcare system.
 
-## **Video Submission Link**:
+## **Video Submission Link**:  
+### Brian's Video:  
+- [Download from GitHub](https://github.com/ngoqbrian/Obesity-Risk-Scoring-Enhancing-Health-Insurance-Plans/blob/Team-Project-1/Brian%20Ngo/images/Brian_Video_Sub.mp4)  
+- [Stream on Google Drive](https://drive.google.com/file/d/1dSS0fj6amqV6dqQpkqlKSV__3FkLLORW/view?usp=drive_link)
+
 
 
