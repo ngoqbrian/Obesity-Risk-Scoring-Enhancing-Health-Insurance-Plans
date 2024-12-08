@@ -23,7 +23,7 @@
 
 
 
-## Correlation Analysis:
+## Exploratory Data Analysis:
 
 ### The Correlation of Height and Weight with Obesity Classification
 
@@ -33,15 +33,31 @@
 
 
 
+
+![Figure 2](https://raw.githubusercontent.com/ngoqbrian/Obesity-Risk-Scoring-Enhancing-Health-Insurance-Plans/Team-Project-1/Brian%20Ngo/images/figure2.png)
+
+
+
+
 ### Heatmap
+
+![Figure 3](https://raw.githubusercontent.com/ngoqbrian/Obesity-Risk-Scoring-Enhancing-Health-Insurance-Plans/Team-Project-1/Brian%20Ngo/images/figure3.png)
+
+
+
 
 
 
 
 
 ### Classifications:
+Which attributes related to eating habits and physical conditions most significantly predict obesity levels, as categorized by the NObesity classification system?
 
-Linear Regression Model for BMI
+#### Linear Regression Model for BMI
+
+![Figure 4](https://raw.githubusercontent.com/ngoqbrian/Obesity-Risk-Scoring-Enhancing-Health-Insurance-Plans/Team-Project-1/Brian%20Ngo/images/figure4.png)
+
+
 
 For our linear regression model, we identified several key factors that influenced BMI.
 
@@ -81,12 +97,26 @@ Phyiscal Activity
 Behavioural Awareness - Monitoring
 
 
+#### Random Forest Analysis for Obesity Classification
 
-Classification: Which attributes related to eating habits and physical conditions most significantly predict obesity levels, as categorized by the NObesity classification system?
+![Figure 5](https://raw.githubusercontent.com/ngoqbrian/Obesity-Risk-Scoring-Enhancing-Health-Insurance-Plans/Team-Project-1/Brian%20Ngo/images/figure5.png)
 
 
+Accuracy: {0.9353312302839116}
+Classification Report:
+               precision    recall  f1-score   support
 
+           0       0.94      0.95      0.95        86
+           1       0.80      0.90      0.85        93
+           2       0.98      0.94      0.96       102
+           3       0.97      0.99      0.98        88
+           4       1.00      0.99      0.99        98
+           5       0.90      0.84      0.87        88
+           6       0.97      0.92      0.95        79
 
+    accuracy                           0.94       634
+   macro avg       0.94      0.93      0.94       634
+weighted avg       0.94      0.94      0.94       634
 
 
 
