@@ -25,7 +25,6 @@ This project aims to classifiy obesity levels using a data-drive approach to pro
 ![Figure 3](https://raw.githubusercontent.com/ngoqbrian/Obesity-Risk-Scoring-Enhancing-Health-Insurance-Plans/Team-Project-1/Brian%20Ngo/images/figure3.png)
 
 ## **Obesity Classification Models**:
-Which attributes related to eating habits and physical conditions most significantly predict obesity levels, as categorized by the NObesity classification system?
 
 ### Linear Regression Model for BMI
 
@@ -45,13 +44,11 @@ Our linear regression model identified several key factors that influenced BMI:
 - FAVC (Frequent High-Calorie Food Consumption): 0.23
 - Family History of Overweight: 0.65
 - FAF (Frequency of Physical Activity): -0.05
-- SCC (Calorie Monitoring): -0.40
-
+- SCC (Calorie Monitoring): -0.40  
 Intercept: 54.89
 
-#### **Model Performance**
-
-**Mean Squared Error (MSE)**: **0.63**
+**Model Performance**:  
+**Mean Squared Error (MSE)**: **0.63**  
 **R-squared (R^2)**: **0.99**
 
 ### Random Forest Analysis for Obesity Classification
@@ -61,7 +58,7 @@ Intercept: 54.89
 Weight is the most significant predictor for obesity classificaiton, which aligns with its direct influence on Body Mass Index (BMI).  
 Frequency of Vegetable Consumption (FCVC), Phyiscal Activity Frequency (FAF) and Time Using Techonology (TUE) are important lifestyle predictors in classifying obesity.  
 
-#### **Model Performance**:  
+**Model Performance**:  
 **Accuracy**: **93.53%**  
 **F1-Score** (Macro Average): **0.94**  
 **Precision** (Macro Average): **0.94**  
@@ -91,7 +88,6 @@ Insurers will be able to create personalized plans through several methods:
 By adjusting premiums to reflect an individual and provide a more personalized approach, health policyholders will be more incentivized and informed in seeking the best plan available. Insurers can offer preventive health benefits through weight management programs, gym membership discounts, and nutrition counselling as a way to decrease obesity-related health conditions (diabetes, hypertension, and hearth disease). These benefits encourage policyholders to adopt healthier lifestyles, thereby reducing long-term healthcare costs for both insurers and individuals. Behavioural incentives such as rewards for increasing physical activity or premium reductions for consistent improvement in obesity level can improve customer satisfaction and incentivize healthier behaviours.
 
 The data-driven insights from these models demonstrate how leveraging obesity risk scoring can allow insurers to design targeted health plans, promote preventive care, and encourage healthier lifestyles, ultimately benefiting both policyholders and the healthcare system.
-
 
 ## **Video Submission Link**:
 
